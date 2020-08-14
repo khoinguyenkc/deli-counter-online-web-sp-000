@@ -4,7 +4,7 @@ katz_deli = []
 def line(queue)
   #parameter = an array
   if queue == []
-    return "The line is currently empty.".
+    return "The line is currently empty."
 
   else
     queue.each_with_index do |item, index|
