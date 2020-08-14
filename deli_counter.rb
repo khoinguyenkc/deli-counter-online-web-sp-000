@@ -19,3 +19,7 @@ end
 
 aha = line(["Logan", "Avi", "Spencer"])
 puts aha
+
+def take_a_number(queue, newperson)
+  queue.push(newperson)
+  "Welcome, #{name}. You are number #{queue.last-1} in line."
