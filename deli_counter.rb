@@ -14,7 +14,7 @@ def line(queue)
     list = queue.join(" ")
     return "The line is currently: #{list}"
   end
-  
+
 end
 
 aha = line(["Logan", "Avi", "Spencer"])
