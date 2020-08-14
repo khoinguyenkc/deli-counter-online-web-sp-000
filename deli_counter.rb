@@ -22,7 +22,7 @@ puts aha
 
 def take_a_number(queue, newperson)
   queue.push(newperson)
-  puts "Welcome, #{newperson}. You are number #{queue.length-1} in line."
+  puts "Welcome, #{newperson}. You are number #{queue.length+1} in line."
 end
 
 take_a_number(["beyonce", "shakira"], "rihanna")
