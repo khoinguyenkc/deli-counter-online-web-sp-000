@@ -36,4 +36,4 @@ def now_serving(queue)
     puts queue
   end
 end
-now_serving("Logan", "Avi", "Spencer"])
+now_serving(["Logan", "Avi", "Spencer"])
