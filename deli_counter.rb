@@ -28,7 +28,7 @@ end
 take_a_number(["beyonce", "shakira"], "rihanna")
 
 def now_serving(queue)
-  if queue = []
+  if queue == []
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{queue[0]}."
