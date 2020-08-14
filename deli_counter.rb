@@ -35,3 +35,4 @@ def now_serving(queue)
     queue.shift()
   end
 end
+now_serving("Logan", "Avi", "Spencer"])
