@@ -33,6 +33,7 @@ def now_serving(queue)
   else
     puts "Currently serving #{queue[0]}."
     queue.shift()
+    puts queue
   end
 end
 now_serving("Logan", "Avi", "Spencer"])
